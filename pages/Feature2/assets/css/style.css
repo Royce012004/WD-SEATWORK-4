@@ -170,3 +170,93 @@ section.feature2{
         }
     }
 }
+section.feature3{
+    background: url(../img/Playstationbg.gif);
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    margin-top: .5rem;
+    & div.content{
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding-top: 1rem;
+        & h1{
+            color: #fff;
+            font-size: 6rem;
+            font-weight: 1000;
+            text-align: left;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+            padding: .5rem;
+            transition: 1s;
+            padding-top: 28rem;
+            padding-left: 2rem;
+            &:hover{
+                color: yellow;
+            }
+        }
+        & p{
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 1000;
+            text-align: left;
+            padding: 1rem;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        }
+    }
+}
+footer.design3{
+    background-color: rgb(53, 51, 51);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1;
+    & a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin: 10px;
+        transition: 1s;
+        &:hover{
+            color: black;
+            background-color: yellow;
+            border-radius: 10px;
+            padding: .6rem;
+        }
+    }
+    & .site{
+        color: white;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    & .services{
+        margin-bottom: 0.5rem;
+        & a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            font-size: 20px;
+            margin: 10px;
+        }
+    }
+    & .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        & i{
+            font-size: 30px;
+            color: #2E6DB4;
+            margin: 10px;
+        }
+    }
+    & .trademark{
+        & p{
+            margin: 10px;
+            color: white;
+        }
+    }
+}
