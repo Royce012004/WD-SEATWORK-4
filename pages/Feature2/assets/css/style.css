@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2E6DB4;
+    padding: .2rem 3rem;
+    & img{
+        height: 3rem;
+        transition: 2.5s;
+        &:hover{
+            transform: rotateY(360deg);
+        }
+    }
+    & a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: .5rem;
+        font-weight: 1000;
+        transition: 1s;
+        &:hover{
+            color: #000;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+    }
+}
+section.hero-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background: url(../img/psbg.jpg);
+    background-size: cover;
+    background-position: center;
+    & img{
+        height: 20rem;
+        transition: 2.5s;
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+}
