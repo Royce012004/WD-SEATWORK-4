@@ -95,3 +95,51 @@ section.feature1{
         }
     }
 }
+section.feature2{
+    background: url(../img/feature2.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 100dvh;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        font-size: 6rem;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        color: #fff;
+    }
+    & a{
+        font-size: 1.5rem;
+        position: relative;
+        color: #fff;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background: #000;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: 0.5s;
+        &:hover{
+          transform: scale(1.2);
+          color: orangered;
+        }
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100dvw;
+        height: 100dvh;
+        background: rgba(0,0,0,0.5);
+}
+}
