@@ -143,3 +143,53 @@ section.feature2{
         background: rgba(0,0,0,0.5);
 }
 }
+section.volumes{
+    background: url(../img/desktop-wallpaper-chainsawman-volume-cover-chainsaw-man-manga.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100dvw;
+    height: 100dvh;
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+  
+    & h1{
+        display: flex;
+        margin-left: 1rem;
+        position: relative;
+        justify-content: left;
+        font-size: 6rem;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        color: black;
+        padding: 28rem 1rem 1rem 1rem;
+        color: white;
+    }
+    & a{
+        font-size: 1.5rem;
+        color: #fff;
+        margin-left: 1rem;
+        position: relative;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        padding: 1rem;
+        background: #000;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: 0.5s;
+        max-width: 10rem;
+        align-items: center;
+        margin-left: 2rem;
+        &:hover{
+          transform: scale(1.2);
+          color: orangered;
+        }
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100dvw;
+        height: 100dvh;
+        background: rgba(0,0,0,0.5);
+}
+}
