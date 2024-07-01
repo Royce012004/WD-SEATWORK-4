@@ -46,3 +46,65 @@ section.hero-img{
         }
     }
 }
+section.feature1{
+    background: url(../img/ps4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    margin-top: .5rem;
+    & .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        & img{
+            height: 5rem;
+            transition: 2.5s;
+            &:hover{
+                transform: scale(1.5);
+            }
+        }
+        & h1{
+            color: #fff;
+            font-size: 6rem;
+            font-weight: 1000;
+            text-align: center;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+            transition: 1s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+        & p{
+            color: #fff;
+            font-size: 1.2rem;
+            font-weight: 1000;
+            text-align: center;
+            padding: 1rem;
+            text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+        }
+        & nav{
+            display: flex;
+            gap: 1rem;
+            & button{
+                padding: .5rem 1rem;
+                background-color: #2E6DB4;
+                color: #fff;
+                border: none;
+                border-radius: 10px;
+                font-size: 1.5rem;
+                cursor: pointer;
+                transition: 1s;
+                &:hover{
+                    background-color: #fff;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
