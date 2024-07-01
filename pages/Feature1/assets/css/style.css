@@ -193,3 +193,54 @@ section.volumes{
         background: rgba(0,0,0,0.5);
 }
 }
+footer.design2{
+    background-color: rgb(58, 57, 57);
+    padding-top: 1rem;
+    & .footer-content2{
+        color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        & i{
+            font-size: 30px;
+            margin: 10px;
+            transition: 1s;
+            &:hover{
+                transform:rotateY(360deg);
+                color: orangered;
+            }
+        }
+    }
+    & .service{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1rem;
+        & a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+            transition: 1s;
+            &:hover{
+                color: orangered;
+                background-color: black;
+                padding: 1rem;
+                border-radius: 10px;
+            }
+        }
+    }
+    & .trademark{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        & p{
+            margin: 10px;
+            color: white;
+        }
+    }
+}
