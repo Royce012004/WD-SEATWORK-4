@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(58, 57, 57);
+    & img{
+        width: 3rem;
+        height: 3rem;
+    }
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100dvw;
+    background: url(../img/dailychainsaw.gif);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    & h1{
+        font-size: 3rem;
+        position: relative;
+        color: #fff;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    & h2{
+        font-size: 6rem;
+        color: #fff;
+        position: relative;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+    }
+    &::before{
+        content: '';
+        position: absolute;
+        width: 100dvw;
+        height: 100dvh;
+        background: rgba(0,0,0,0.5);
+}
+}
