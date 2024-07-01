@@ -49,3 +49,49 @@
         background: rgba(0,0,0,0.5);
 }
 }
+section.feature1{
+    background: url(../img/feature1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    width: 100dvw;
+    margin-top: .5rem;
+    padding: 1rem;
+    & h1{
+        font-size: 3rem;
+        color: #fff;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        display: flex;
+        padding: 23rem 1rem 1rem 1rem;
+        justify-content: right;
+        background: transparent;
+        align-items: flex-start;
+    }
+    & p{
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        display: flex;
+        justify-content: right;
+    }
+    & a{
+        font-size: 1.5rem;
+        color: #fff;
+        text-shadow: 3px 4px 5px rgba(0,0,0,0.6);
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        background: #000;
+        align-items: center;
+        text-decoration: none;
+        font-weight: bold;
+        transition: 0.5s;
+        &:hover{
+          transform: scale(1.2);
+          color: orangered;
+        }
+    }
+}
